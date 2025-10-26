@@ -137,7 +137,6 @@ ol {
 
 .search-form__textfield:focus {
   outline: 1px solid rgba(255 255 255 /0.7);
-  outline-offset: 1px;
 }
 
 .search-form__checkbox-list {
@@ -188,7 +187,7 @@ ol {
 
 .search-form__textfield:has(:focus-visible){
     outline: 1px solid currentColor;
-    outline-offset: 0px;
+    outline-offset: 0;
 }
 
 .search-form__label:has(:focus-visible) {
